@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube-niche-finder"
+version = "0.1.0"
+description = "Evidence-led YouTube niche scanning and decision pack for Claude Code"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["niche_finder*"]

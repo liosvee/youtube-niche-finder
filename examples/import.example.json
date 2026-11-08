@@ -1,0 +1,455 @@
+{
+  "_note": "FICTIONAL example data for tests and the import format. Not real YouTube data.",
+  "rows": [
+    {
+      "id": "EXAMPLEvid00",
+      "title": "How to fix a slow laptop",
+      "channel_id": "UCexample0",
+      "channel_title": "Example Channel 0",
+      "channel_subscribers": 1200,
+      "published_at": "2026-08-08T00:00:00Z",
+      "views": 37179,
+      "duration_seconds": 45,
+      "comments": 247,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid01",
+      "title": "Windows 11 slow startup fix",
+      "channel_id": "UCexample1",
+      "channel_title": "Example Channel 1",
+      "channel_subscribers": 4500,
+      "published_at": "2026-10-17T00:00:00Z",
+      "views": 1216,
+      "duration_seconds": 540,
+      "comments": 8,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid02",
+      "title": "Fix WiFi keeps disconnecting laptop",
+      "channel_id": "UCexample2",
+      "channel_title": "Example Channel 2",
+      "channel_subscribers": 8000,
+      "published_at": "2026-07-28T00:00:00Z",
+      "views": 53501,
+      "duration_seconds": 540,
+      "comments": 356,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid03",
+      "title": "Laptop overheating fix for beginners",
+      "channel_id": "UCexample3",
+      "channel_title": "Example Channel 3",
+      "channel_subscribers": 25000,
+      "published_at": "2026-09-05T00:00:00Z",
+      "views": 1508,
+      "duration_seconds": 540,
+      "comments": 10,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid04",
+      "title": "Speed up old laptop free",
+      "channel_id": "UCexample4",
+      "channel_title": "Example Channel 4",
+      "channel_subscribers": 60000,
+      "published_at": "2026-10-12T00:00:00Z",
+      "views": 2467,
+      "duration_seconds": 45,
+      "comments": 16,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid05",
+      "title": "Blue screen error fix beginners",
+      "channel_id": "UCexample5",
+      "channel_title": "Example Channel 5",
+      "channel_subscribers": 150000,
+      "published_at": "2026-10-14T00:00:00Z",
+      "views": 17464,
+      "duration_seconds": 540,
+      "comments": 116,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid06",
+      "title": "Printer offline fix Windows",
+      "channel_id": "UCexample6",
+      "channel_title": "Example Channel 6",
+      "channel_subscribers": 900000,
+      "published_at": "2026-09-02T00:00:00Z",
+      "views": 15442,
+      "duration_seconds": 540,
+      "comments": 102,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid07",
+      "title": "Fix laptop battery drain",
+      "channel_id": "UCexample7",
+      "channel_title": "Example Channel 7",
+      "channel_subscribers": 3000,
+      "published_at": "2026-10-14T00:00:00Z",
+      "views": 10541,
+      "duration_seconds": 540,
+      "comments": 70,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid08",
+      "title": "Clean install Windows 11 beginners",
+      "channel_id": "UCexample0",
+      "channel_title": "Example Channel 0",
+      "channel_subscribers": 1200,
+      "published_at": "2026-09-03T00:00:00Z",
+      "views": 4884,
+      "duration_seconds": 45,
+      "comments": 32,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid09",
+      "title": "Laptop fan loud fix",
+      "channel_id": "UCexample1",
+      "channel_title": "Example Channel 1",
+      "channel_subscribers": 4500,
+      "published_at": "2026-09-29T00:00:00Z",
+      "views": 11293,
+      "duration_seconds": 540,
+      "comments": 75,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid10",
+      "title": "Fix no sound Windows 11",
+      "channel_id": "UCexample2",
+      "channel_title": "Example Channel 2",
+      "channel_subscribers": 8000,
+      "published_at": "2026-09-13T00:00:00Z",
+      "views": 1205,
+      "duration_seconds": 540,
+      "comments": 8,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid11",
+      "title": "Speed up Chrome slow laptop",
+      "channel_id": "UCexample3",
+      "channel_title": "Example Channel 3",
+      "channel_subscribers": 25000,
+      "published_at": "2026-09-11T00:00:00Z",
+      "views": 4533,
+      "duration_seconds": 540,
+      "comments": 30,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid12",
+      "title": "Fix keyboard not working laptop",
+      "channel_id": "UCexample4",
+      "channel_title": "Example Channel 4",
+      "channel_subscribers": 60000,
+      "published_at": "2026-10-13T00:00:00Z",
+      "views": 11473,
+      "duration_seconds": 45,
+      "comments": 76,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid13",
+      "title": "Remove malware free beginners",
+      "channel_id": "UCexample5",
+      "channel_title": "Example Channel 5",
+      "channel_subscribers": 150000,
+      "published_at": "2026-06-24T00:00:00Z",
+      "views": 15503,
+      "duration_seconds": 540,
+      "comments": 103,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid14",
+      "title": "Fix 100% disk usage Windows 11",
+      "channel_id": "UCexample6",
+      "channel_title": "Example Channel 6",
+      "channel_subscribers": 900000,
+      "published_at": "2026-08-10T00:00:00Z",
+      "views": 3213,
+      "duration_seconds": 540,
+      "comments": 21,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid15",
+      "title": "How to fix a slow laptop",
+      "channel_id": "UCexample7",
+      "channel_title": "Example Channel 7",
+      "channel_subscribers": 3000,
+      "published_at": "2026-07-29T00:00:00Z",
+      "views": 1091,
+      "duration_seconds": 540,
+      "comments": 7,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid16",
+      "title": "Windows 11 slow startup fix",
+      "channel_id": "UCexample0",
+      "channel_title": "Example Channel 0",
+      "channel_subscribers": 1200,
+      "published_at": "2026-08-28T00:00:00Z",
+      "views": 2368,
+      "duration_seconds": 45,
+      "comments": 15,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid17",
+      "title": "Fix WiFi keeps disconnecting laptop",
+      "channel_id": "UCexample1",
+      "channel_title": "Example Channel 1",
+      "channel_subscribers": 4500,
+      "published_at": "2026-06-25T00:00:00Z",
+      "views": 2098,
+      "duration_seconds": 540,
+      "comments": 13,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid18",
+      "title": "Laptop overheating fix for beginners",
+      "channel_id": "UCexample2",
+      "channel_title": "Example Channel 2",
+      "channel_subscribers": 8000,
+      "published_at": "2026-08-03T00:00:00Z",
+      "views": 1994,
+      "duration_seconds": 540,
+      "comments": 13,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid19",
+      "title": "Speed up old laptop free",
+      "channel_id": "UCexample3",
+      "channel_title": "Example Channel 3",
+      "channel_subscribers": 25000,
+      "published_at": "2026-10-19T00:00:00Z",
+      "views": 14283,
+      "duration_seconds": 540,
+      "comments": 95,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid20",
+      "title": "Blue screen error fix beginners",
+      "channel_id": "UCexample4",
+      "channel_title": "Example Channel 4",
+      "channel_subscribers": 60000,
+      "published_at": "2026-08-10T00:00:00Z",
+      "views": 4882,
+      "duration_seconds": 45,
+      "comments": 32,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid21",
+      "title": "Printer offline fix Windows",
+      "channel_id": "UCexample5",
+      "channel_title": "Example Channel 5",
+      "channel_subscribers": 150000,
+      "published_at": "2026-06-24T00:00:00Z",
+      "views": 10964,
+      "duration_seconds": 540,
+      "comments": 73,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid22",
+      "title": "Fix laptop battery drain",
+      "channel_id": "UCexample6",
+      "channel_title": "Example Channel 6",
+      "channel_subscribers": 900000,
+      "published_at": "2026-10-06T00:00:00Z",
+      "views": 46198,
+      "duration_seconds": 540,
+      "comments": 307,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid23",
+      "title": "Clean install Windows 11 beginners",
+      "channel_id": "UCexample7",
+      "channel_title": "Example Channel 7",
+      "channel_subscribers": 3000,
+      "published_at": "2026-10-13T00:00:00Z",
+      "views": 20462,
+      "duration_seconds": 540,
+      "comments": 136,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid24",
+      "title": "Laptop fan loud fix",
+      "channel_id": "UCexample0",
+      "channel_title": "Example Channel 0",
+      "channel_subscribers": 1200,
+      "published_at": "2026-07-23T00:00:00Z",
+      "views": 27451,
+      "duration_seconds": 45,
+      "comments": 183,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid25",
+      "title": "Fix no sound Windows 11",
+      "channel_id": "UCexample1",
+      "channel_title": "Example Channel 1",
+      "channel_subscribers": 4500,
+      "published_at": "2026-07-03T00:00:00Z",
+      "views": 3771,
+      "duration_seconds": 540,
+      "comments": 25,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid26",
+      "title": "Speed up Chrome slow laptop",
+      "channel_id": "UCexample2",
+      "channel_title": "Example Channel 2",
+      "channel_subscribers": 8000,
+      "published_at": "2026-06-25T00:00:00Z",
+      "views": 2938,
+      "duration_seconds": 540,
+      "comments": 19,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid27",
+      "title": "Fix keyboard not working laptop",
+      "channel_id": "UCexample3",
+      "channel_title": "Example Channel 3",
+      "channel_subscribers": 25000,
+      "published_at": "2026-07-21T00:00:00Z",
+      "views": 44544,
+      "duration_seconds": 540,
+      "comments": 296,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid28",
+      "title": "Remove malware free beginners",
+      "channel_id": "UCexample4",
+      "channel_title": "Example Channel 4",
+      "channel_subscribers": 60000,
+      "published_at": "2026-09-17T00:00:00Z",
+      "views": 6424,
+      "duration_seconds": 45,
+      "comments": 42,
+      "tags": [
+        "pc help",
+        "beginner"
+      ]
+    },
+    {
+      "id": "EXAMPLEvid29",
+      "title": "Fix 100% disk usage Windows 11",
+      "channel_id": "UCexample5",
+      "channel_title": "Example Channel 5",
+      "channel_subscribers": 150000,
+      "published_at": "2026-09-24T00:00:00Z",
+      "views": 3713,
+      "duration_seconds": 540,
+      "comments": 24,
+      "tags": [
+        "laptop fix",
+        "windows 11"
+      ]
+    }
+  ]
+}

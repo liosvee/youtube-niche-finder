@@ -1,0 +1,82 @@
+{
+  "constraints": {
+    "faceless": true,
+    "ai_assisted": true,
+    "languages_you_can_publish": ["en"],
+    "hours_per_week": null,
+    "budget_usd_per_month": null,
+    "notes": ""
+  },
+  "niches": [
+    {
+      "id": "replace-with-niche-id",
+      "niche_type": "education",
+      "niche_name": "",
+      "description": "",
+      "channel_promise": "",
+      "audience": "",
+      "language": "en",
+      "region": "",
+      "video_types": [
+        {
+          "format": "long-form",
+          "style": "",
+          "length": "",
+          "series": "",
+          "cadence": ""
+        }
+      ],
+      "keywords": [
+        {
+          "term": "",
+          "source": "",
+          "evidence": ""
+        }
+      ],
+      "revenue_routes": [
+        {
+          "type": "affiliate",
+          "name": "",
+          "url": "",
+          "note": "Existence of a program does not establish your likely earnings."
+        }
+      ],
+      "criteria": {
+        "audience_demand": {"score": null, "rationale": "", "evidence": []},
+        "new_channel_opportunity": {"score": null, "rationale": "", "evidence": []},
+        "revenue_opportunities": {"score": null, "rationale": "", "evidence": []},
+        "audience_specificity": {"score": null, "rationale": "", "evidence": []},
+        "original_contribution": {"score": null, "rationale": "", "evidence": []},
+        "content_depth": {"score": null, "rationale": "", "evidence": []},
+        "return_viewing": {"score": null, "rationale": "", "evidence": []},
+        "production_economics": {"score": null, "rationale": "", "evidence": []},
+        "knowledge_credibility": {"score": null, "rationale": "", "evidence": []},
+        "monetization_rights": {"score": null, "rationale": "", "evidence": []}
+      },
+      "ideas": [],
+      "economics": {
+        "basis": "scenario",
+        "monthly_views": {"low": null, "mid": null, "high": null},
+        "rpm_usd": {"low": null, "mid": null, "high": null},
+        "rpm_source": "",
+        "external_revenue_usd": {"low": 0, "mid": 0, "high": 0},
+        "costs_usd": {
+          "research": 0,
+          "scripting": 0,
+          "narration": 0,
+          "editing": 0,
+          "visuals_licensing": 0,
+          "tools_subscriptions": 0,
+          "revisions": 0
+        },
+        "videos_per_month": null
+      },
+      "unknowns": ""
+    }
+  ],
+  "decision": {
+    "selected": null,
+    "selected_at": null,
+    "note": ""
+  }
+}

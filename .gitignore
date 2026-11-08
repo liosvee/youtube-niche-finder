@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+projects/
+MASTER_CONTEXT.md
+.DS_Store
+*.egg-info/
+dist/
+build/
