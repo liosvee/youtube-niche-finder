@@ -92,7 +92,9 @@ def main(argv=None):
         _write_scan(a.project, a.niche_id, 'api', rows, meta)
     elif a.cmd == 'import':
         raw = load(a.file)
-        rows = raw.get('rows', raw.get('videos')) if isinstance(raw, dict) else raw
+        rows = analysis.from_vidiq(raw)
+        if rows is None:
+            rows = raw.get('rows', raw.get('videos')) if isinstance(raw, dict) else raw
         if not isinstance(rows, list):
             sys.exit('Expected a JSON list of videos or {"rows": [...]}.')
         meta = {'source': a.source, 'file': os.path.basename(a.file), 'collected_at': now(),

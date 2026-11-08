@@ -18,5 +18,9 @@ FILE is a JSON list (or `{"rows": [...]}`) of videos:
 | tags | no | List of strings |
 | url | no | |
 
-Map vidIQ fields honestly. If vidIQ doesn't return a field, leave it out —
+**vidIQ search output is accepted directly**: save the raw result of
+`vidiq_youtube_search` (type `video`), either the `{"results": [...]}` JSON or
+the MCP client's `[{"type":"text","text":...}]` wrapper, and import it as-is.
+
+Map other vidIQ fields honestly. If vidIQ doesn't return a field, leave it out —
 never estimate it. See `examples/import.example.json`.

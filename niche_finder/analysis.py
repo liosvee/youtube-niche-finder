@@ -20,6 +20,33 @@ shorts short video videos official full part ep episode 2023 2024 2025 2026
 REQUIRED = ('id', 'title', 'channel_id', 'published_at', 'views')
 
 
+def from_vidiq(raw):
+    """Accept vidIQ `vidiq_youtube_search` output as saved by an MCP client:
+    either the tool's JSON ({"results": [...]}) or the client wrapper
+    ([{"type": "text", "text": "<that JSON>"}]). Returns rows or None."""
+    import json
+    from .youtube import seconds
+    if isinstance(raw, list) and raw and isinstance(raw[0], dict) and raw[0].get('type') == 'text':
+        try:
+            raw = json.loads(raw[0]['text'])
+        except (ValueError, KeyError):
+            return None
+    if not isinstance(raw, dict) or not isinstance(raw.get('results'), list):
+        return None
+    rows = []
+    for v in raw['results']:
+        if v.get('kind', 'video') != 'video':
+            continue
+        rows.append({
+            'id': v.get('id'), 'url': f"https://www.youtube.com/watch?v={v.get('id')}",
+            'title': v.get('title'), 'channel_id': v.get('channelId'), 'channel_title': v.get('channelTitle'),
+            'channel_subscribers': v.get('subscriberCount'), 'published_at': v.get('publishedAt'),
+            'duration_seconds': seconds(v.get('duration')), 'views': v.get('viewCount'),
+            'comments': v.get('commentCount'), 'tags': [],
+        })
+    return rows
+
+
 def normalise(rows):
     """Validate imported rows (from the API, vidIQ or a manual export)."""
     clean, skipped = [], 0

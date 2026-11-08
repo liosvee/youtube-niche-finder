@@ -165,3 +165,16 @@ class CliTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class VidiqImportTests(unittest.TestCase):
+    def test_wrapper_and_plain(self):
+        res = {'results': [{'kind': 'video', 'id': 'a', 'title': 't', 'channelId': 'c', 'channelTitle': 'C',
+                            'publishedAt': '2026-10-01T00:00:00Z', 'viewCount': 5, 'duration': 'PT5M',
+                            'subscriberCount': 10, 'commentCount': 1},
+                           {'kind': 'channel', 'id': 'x'}]}
+        for raw in (res, [{'type': 'text', 'text': json.dumps(res)}]):
+            rows = analysis.from_vidiq(raw)
+            self.assertEqual(len(rows), 1)
+            self.assertEqual(rows[0]['duration_seconds'], 300)
+        self.assertIsNone(analysis.from_vidiq([{'id': 'a'}]))
